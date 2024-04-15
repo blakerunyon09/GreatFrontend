@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import Accordian from "../views/Accordian";
+import Accordian from "../views/Accordian/Accordian.tsx";
 
 export const router =  createBrowserRouter([
   {
