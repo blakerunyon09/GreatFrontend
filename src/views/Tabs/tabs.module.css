@@ -1,0 +1,29 @@
+button {
+    background-color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: white;
+    border: solid grey 1px;
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected-button { 
+    background-color: blueviolet;
+    border: solid grey 1px;
+    color: white;
+    font-weight: 700;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
