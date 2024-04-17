@@ -1,0 +1,25 @@
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 220px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.gridCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    width: fit-content;
+    height: 35px;
+    width: 35px;
+}
+
+.grid {
+    margin: 50px
+}
