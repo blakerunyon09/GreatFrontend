@@ -1,0 +1,24 @@
+
+
+.row {
+    display: flex;
+    width: fit-content;
+}
+
+.row:last-child {
+    border-bottom: solid black 1px;
+}
+
+.cell {
+    height: 35px;
+    width: 35px;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:last-child {
+    border-right: solid black 1px;
+}
